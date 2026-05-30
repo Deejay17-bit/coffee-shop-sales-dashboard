@@ -80,7 +80,15 @@ coffee-shop-sales-dashboard/
 - All three stores perform similarly — revenue gap is less than 3%
 
 ## Dashboard Screenshots
-*(Add screenshots here after uploading)*
+
+### Page 1 — Sales Overview
+![Page 1](page1_sales_overview.png)
+
+### Page 2 — Product & Time Analysis
+![Page 2](page2_product_time.png)
+
+### Page 3 — Store Performance
+![Page 3](page3_store_performance.png)
 
 ## How to Run
 1. Clone this repository

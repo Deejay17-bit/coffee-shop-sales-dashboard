@@ -25,6 +25,10 @@ coffee-shop-sales-dashboard/
 ├── Coffee Shop Sales.xlsx     ← Raw dataset from Kaggle
 ├── coffee_sales_cleaned.csv   ← Cleaned dataset for Power BI
 └── README.md
+├── page1_sales_overview.png 
+├── page2_product_time.png 
+├── page3_store_performance.png 
+
 
 ## What I Did
 

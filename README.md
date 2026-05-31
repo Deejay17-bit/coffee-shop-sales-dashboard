@@ -1,5 +1,4 @@
 # ☕ Coffee Shop Sales Dashboard
-![Dashboard Overview](images/dashboard_overview.png)
 
 ## Project Overview
 End-to-end data analytics project analyzing coffee shop sales performance across 3 stores from January to June 2023. This project analyzes transactional coffee shop sales data using Python (Pandas), Excel, and Power BI to uncover business insights related to revenue performance, product sales, store performance, and customer purchasing behavior.

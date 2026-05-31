@@ -11,14 +11,14 @@ The objective was to transform raw transactional data into actionable insights t
 
 This analysis was conducted to answer the following business questions:
 
-What time of day generates the highest sales volume and revenue?
-Which product categories contribute the most to total revenue?
-Which individual products are the top sellers?
-Which store location performs best in terms of revenue and order volume?
-How does sales performance vary across different months?
-What is the Average Order Value (AOV) of customer transactions?
-What purchasing patterns can be observed across different stores and time periods?
-Which categories or products may require additional marketing attention due to lower sales performance?
+- What time of day generates the highest sales volume and revenue?
+- Which product categories contribute the most to total revenue?
+- Which individual products are the top sellers?
+- Which store location performs best in terms of revenue and order volume?
+- How does sales performance vary across different months?
+- What is the Average Order Value (AOV) of customer transactions?
+- What purchasing patterns can be observed across different stores and time periods?
+- Which categories or products may require additional marketing attention due to lower sales performance?
 
 ## Tools Used
 - **Python (Pandas, NumPy)** — Data cleaning and preparation

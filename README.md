@@ -153,11 +153,10 @@ The complete Power BI dashboard file (`Coffee_Shop_Dashboard.pbix`) is included 
 ```text
 coffee-shop-sales-dashboard/
 │
-├── images/
-│   ├── page1_sales_overview.png
-│   ├── page2_product_time.png
-│   ├── page3_store_performance.png
-│   └── model_view.png
+├── page1_sales_overview.png
+├── page2_product_time.png
+├── page3_store_performance.png
+└── model_view.png
 │
 ├── Coffee_Project101.ipynb
 ├── Coffee Shop Sales.xlsx
@@ -181,22 +180,3 @@ coffee-shop-sales-dashboard/
 2. Open `Coffee_Project101.ipynb` in Jupyter Notebook
 3. Run all cells to reproduce the cleaning pipeline
 4. Open `Coffee_Shop_Dashboard.pbix` in Power BI Desktop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

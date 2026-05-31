@@ -3,16 +3,18 @@
 ![Dashboard Overview](page1_sales_overview.png)
 
 ## Project Overview
-End-to-end data analytics project analyzing coffee shop sales performance across 3 stores from January to June 2023. This project analyzes transactional coffee shop sales data using Python (Pandas), Excel, and Power BI to uncover business insights related to revenue performance, product sales, store performance, and customer purchasing behavior.
+End-to-end data analytics project analyzing coffee shop sales performance across 3 stores from January to June 2023. This project analyzes transactional coffee shop sales data from three store locations using Python (Pandas), Excel, and Power BI to uncover insights into revenue performance, product sales, store performance, and customer purchasing behavior.
 
 The objective was to transform raw transactional data into actionable insights through data cleaning, exploratory data analysis (EDA), KPI development, and interactive dashboard design.
 
 ## Results
 
+The dashboard analyzed 149,116 transactions and generated the following business metrics:
+
 - Total Revenue: 698.81K
 - Total Orders: 149K
-- Average Order Value: 4.69
 - Total Quantity Sold: 214K
+- Average Order Value (AOV): 4.69
 - Best Performing Store: BigBrew
 - Peak Sales Hour: 10 AM
 
@@ -91,15 +93,17 @@ This analysis was conducted to answer the following business questions:
 - Day-parts by product category matrix
 
 ## Data Model
-
+![Data Model](model_view.png)
 The dashboard was built using a star schema data model consisting of:
 
-- Fact Table: Fact_CoffeeSales (transaction-level sales data)
-- Date dimension
-- Product dimension
-- Store dimension
+- Fact_CoffeeSales
+- Dim_Date
+- Dim_Product
+- Dim_Store
 
 One-to-many relationships were established between the dimension tables and the fact table to support efficient filtering, aggregation, and reporting.
+
+---
 
 ## Dashboard Features
 
@@ -117,6 +121,8 @@ One-to-many relationships were established between the dimension tables and the 
 - Consistent **upward sales trend** from February to June
 - All three stores perform similarly — revenue gap is less than 3%
 
+---
+
 ## Dashboard Screenshots
 
 ### Page 2 — Product & Time Analysis
@@ -124,6 +130,12 @@ One-to-many relationships were established between the dimension tables and the 
 
 ### Page 3 — Store Performance
 ![Page 3](page3_store_performance.png)
+
+## Power BI Dashboard
+
+The complete Power BI dashboard file (`Coffee_Shop_Dashboard.pbix`) is included in this repository and can be opened using Power BI Desktop.
+
+---
 
 ## Skills Demonstrated
 
@@ -138,15 +150,23 @@ One-to-many relationships were established between the dimension tables and the 
 
 ## Project Structure
 
+```text
 coffee-shop-sales-dashboard/
 │
-├── Coffee_Project101.ipynb  ← Data cleaning & EDA notebook
-├── Coffee Shop Sales.xlsx   ← Raw dataset from Kaggle
-├── coffee_sales_cleaned.csv  ← Cleaned dataset for Power BI
-├── page1_sales_overview.png
-├── page2_product_time.png
-├── page3_store_performance.png
+├── images/
+│   ├── page1_sales_overview.png
+│   ├── page2_product_time.png
+│   ├── page3_store_performance.png
+│   └── model_view.png
+│
+├── Coffee_Project101.ipynb
+├── Coffee Shop Sales.xlsx
+├── coffee_sales_cleaned.csv
+├── Coffee_Shop_Dashboard.pbix
 └── README.md
+```
+
+---
 
 ## Future Improvements
 
@@ -160,7 +180,7 @@ coffee-shop-sales-dashboard/
 1. Clone this repository
 2. Open `Coffee_Project101.ipynb` in Jupyter Notebook
 3. Run all cells to reproduce the cleaning pipeline
-4. Open `coffee_sales_cleaned.csv` in Power BI
+4. Open `Coffee_Shop_Dashboard.pbix` in Power BI Desktop
 
 
 

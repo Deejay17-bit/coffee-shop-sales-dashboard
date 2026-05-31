@@ -1,9 +1,24 @@
 # ☕ Coffee Shop Sales Dashboard
 
+![Dashboard Overview]![Page 1](page1_sales_overview.png)
+
 ## Project Overview
 End-to-end data analytics project analyzing coffee shop sales performance across 3 stores from January to June 2023. This project analyzes transactional coffee shop sales data using Python (Pandas), Excel, and Power BI to uncover business insights related to revenue performance, product sales, store performance, and customer purchasing behavior.
 
 The objective was to transform raw transactional data into actionable insights through data cleaning, exploratory data analysis (EDA), KPI development, and interactive dashboard design.
+
+## Business Questions
+
+This analysis was conducted to answer the following business questions:
+
+What time of day generates the highest sales volume and revenue?
+Which product categories contribute the most to total revenue?
+Which individual products are the top sellers?
+Which store location performs best in terms of revenue and order volume?
+How does sales performance vary across different months?
+What is the Average Order Value (AOV) of customer transactions?
+What purchasing patterns can be observed across different stores and time periods?
+Which categories or products may require additional marketing attention due to lower sales performance?
 
 ## Tools Used
 - **Python (Pandas, NumPy)** — Data cleaning and preparation
@@ -87,7 +102,7 @@ coffee-shop-sales-dashboard/
 ## Dashboard Screenshots
 
 ### Page 1 — Sales Overview
-![Page 1](page1_sales_overview.png)
+
 
 ### Page 2 — Product & Time Analysis
 ![Page 2](page2_product_time.png)
